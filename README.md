@@ -1,8 +1,15 @@
-# Persona Dark
+# Dark Custom
 
-Theme for [Hexo].
+Theme for [Hexo], customized for my likings.
 
-[Demo]
+Original theme is [thiagopnts/hexo-persona-dark](https://github.com/thiagopnts/hexo-persona-dark), really
+[thanks to him](https://github.com/thiagopnts) for this beautiful base
+
+### Additional command needed:
+
+`bower install` to install dependencies
+
+# Former README.md
 
 ## Install
 
