@@ -2,7 +2,7 @@ menu:
   Home: /
   Archives: /archives
 
-widgets: 
+widgets:
 # - search
 - category
 - tag
@@ -18,10 +18,14 @@ twitter:
 
 github: mrgamer
 email: mister.gamer@gmail.com
-about: "I really like to describe myself, 27 years old from Rome, citizien of the world."
+about: "Grumpy developer from Rome, messing with technology"
 photo:
-  - http://www.gravatar.com/avatar/12ff18b8ea95f6c1dc391207e42c7666.png
-  - http://cdn.dashburst.com/wp-content/uploads/2013/01/Grumpy-Cat.jpg
+  - https://en.gravatar.com/userimage/42435845/782568548e458a2ff3058a0f46e0fa01.png?size=200
+  - https://en.gravatar.com/userimage/42435845/c495d5cc01ed37b5d82be67415b0d5dd.jpg?size=200
+  - https://en.gravatar.com/userimage/42435845/acbbe5812de9a2c6807e98d6f6ce039d.jpg?size=200
+  - http://blogs.kcrw.com/pressplay/wp-content/uploads/2014/01/Grumpy-Cat1.jpg
+  - http://sms111.org/wallpapers/wp-content/uploads/2013/06/Grumpy-Cat-Cute.jpg
+  - http://fc06.deviantart.net/fs70/i/2013/013/2/c/grumpy_cat_by_adlynh-d5rdjjr.png
 
 addthis:
   enable: false
@@ -29,7 +33,7 @@ addthis:
   facebook: true
   twitter: true
   google: true
-  pinterest: true
+  pinterest: false
 
 fancybox: true
 

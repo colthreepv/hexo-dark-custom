@@ -4,9 +4,11 @@
 <div class="personal-info">
   <figure>
     <% if(theme.photo) { %>
-      <a href="<%- config.root %>">
-        <img class="personal-photo" src="<%- theme.photo[1] %>" alt="<%- config.author %>">
-      </a>
+      <div class="multiple-photos">
+        <% for (var i in theme.photo) { %>
+        <img class="personal-photo hidden" src="<%- theme.photo[i] %>" alt="<%- config.author %>">
+        <% } %>
+      </div>
     <% } %>
     <figcaption>
       <h3 class=><%- config.author %></h3>
@@ -18,7 +20,7 @@
       <a target="_blank" class="icon twitter depth" href="http://twitter.com/<%- theme.twitter.username %>"></a>
     <% } %>
     <% if( theme.facebook ) { %>
-      <a target="_blank" class="icon facebook depth" href="http://fb.com/<%- theme.facebook %>"></a> 
+      <a target="_blank" class="icon facebook depth" href="http://fb.com/<%- theme.facebook %>"></a>
     <% } %>
     <% if( theme.github) { %>
       <a target="_blank" class="icon github depth" href="http://github.com/<%= theme.github %>"></a>
