@@ -1,9 +1,5 @@
 <% page.posts.each(function(item){ %>
-  <!-- <%- partial('_partial/article', {item: item, index: true}) %> -->
-
-  
   <div class="archive">
-    
     <article class="<%= item.layout %>">
       <div class="post-content">
         <header>
@@ -23,7 +19,7 @@
       </div>
     </article>
   </div>
-  
+
 <% }); %>
 
 <%- partial('_partial/pagination') %>
