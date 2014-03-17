@@ -1,6 +1,3 @@
-<!-- <% theme.widgets.forEach(function(widget){ %>
-  <%- partial('../_widget/' + widget) %>
-<% }); %> -->
 <div class="personal-info">
   <figure>
     <% if(theme.photo) { %>
@@ -30,3 +27,6 @@
     <% } %>
   </section>
 </div>
+<% theme.widgets.forEach(function(widget){ %>
+  <%- partial('../_widget/' + widget) %>
+<% }); %>
