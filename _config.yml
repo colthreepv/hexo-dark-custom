@@ -5,8 +5,8 @@ menu:
 widgets:
 # - search
 - category
-- tag
-- tagcloud
+# - tag
+# - tagcloud
 # - twitter
 
 excerpt_link: Read More
@@ -17,7 +17,7 @@ twitter:
   tweet_count: 5
 
 github: mrgamer
-email: mister.gamer@gmail.com
+email: valerio.coltre@gmail.com
 about: "Grumpy developer from Rome, messing with technology"
 photo:
   - https://en.gravatar.com/userimage/42435845/782568548e458a2ff3058a0f46e0fa01.png?size=200
