@@ -45,13 +45,14 @@
   <%- js('//code.jquery.com/jquery-2.1.0.min.js') %>
   <script>
   $(document).ready(function() {
-    var photos = $('.sidebar .personal-photo');
+    var photosSide = $('.sidebar .personal-photo'),
+        photosBottom = $('.bottombar .personal-photo');
     // choose a random picture and show it
-    photos.eq(Math.floor(Math.random() * photos.length)).removeClass('hidden');
+    photosSide.eq(Math.floor(Math.random() * photosSide.length)).removeClass('hidden');
+    photosBottom.eq(Math.floor(Math.random() * photosSide.length)).removeClass('hidden');
 
     $('.sidebar').delay(400).animate({ width: '285px' }, 500, function() {
       $('.personal-info').css({ display: 'table' }).hide().fadeIn(500);
-      $('.sidebar > .search').hide().fadeIn(500);
     });
   });
   </script>
